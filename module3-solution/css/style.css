@@ -1,0 +1,130 @@
+body {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3b352a;
+    font-family: Montserrat, Epilogue, Sora, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header-nav {
+    background-color: #ffff05;
+    border-radius: 0;
+    border: 0;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    padding: 20px 20px 20px 50px;
+}
+
+/* Restaurant Brand */
+.navbar-brand h1 {
+    font-family: Montserrat, sans-serif;
+    color: #3b352a;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    /* text-shadow: 1px 1px 1px #222; */
+}
+
+.navbar-brand a:link {
+    text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    margin: 20px 50px 20px;
+    border: 2px solid #3b352a;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2859, 53, 42, 1.0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.nav-item {
+    font-family:  Sora, sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.nav-link {
+    color: #3b352a;
+}
+
+.nav-item a:hover{
+    color: #3b352a;
+    background-color: #ffff05;
+}
+
+.nav-item a:focus{
+    color: #3b352a;
+}
+
+
+#page-title {
+    font-family: Sora, san-serif;
+    color: #fff;
+    font-size:  3em;
+    font-weight:  bold;
+    text-align:  center;
+    margin: 20px 0 0 0;
+    /* border: 1px solid; */
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid;*/
+    text-align: center;
+}
+
+
+.list-container{
+    background-color: #666662;
+    border: 1px solid;
+    margin-top: 25px;
+}
+
+.list-heading {
+    font-family: Sora, san-serif;
+    font-size: 0.5em;
+    margin-top: 10px;
+}
+
+.list-content {
+    font-family: Sora, san-serif;
+    font-size:  0.35em;
+    font-weight: normal;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.back-to-top {
+    font-family: Sora, san-serif;
+    font-size:  0.35em;
+    font-weight: normal;
+    text-align: left;
+    padding: 0px 20px;
+}
+
